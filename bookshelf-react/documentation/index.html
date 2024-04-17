@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no"
+    />
+    <link href="assets/images/favicon.ico" rel="icon" />
+    <title>Prego - Restaurants & Food Delivery React Template</title>
+    <meta
+      name="description"
+      content="Prego - Restaurants & Food Delivery React Template"
+    />
+    <!-- Stylesheet
+============================== -->
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome Icon -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/font-awesome/css/all.min.css"
+    />
+    <!-- Magnific Popup -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/magnific-popup/magnific-popup.min.css"
+    />
+    <!-- Highlight Syntax -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/vendor/highlight.js/styles/github.css"
+    />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+  </head>
+
+  <body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="lds-ellipsis">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- Preloader End -->
+    <!-- Document Wrapper   
+=============================== -->
+    <div id="main-wrapper">
+      <!-- Header
+  ============================ -->
+      <header id="header" class="sticky-top">
+        <!-- Navbar -->
+        <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+          <div class="container-fluid">
+            <!-- Sidebar Toggler -->
+            <button
+              id="sidebarCollapse"
+              class="navbar-toggler d-block d-md-none"
+              type="button"
+            >
+              <span></span><span class="w-75"></span><span class="w-50"></span>
+            </button>
+            <!-- Logo -->
+            <a class="logo ml-md-3" href="index.html" title="prego Template">
+              <h1>Bookshelf.</h1>
+            </a>
+            <!-- Logo End -->
+            <!-- Navbar Toggler -->
+            <button
+              class="navbar-toggler ml-auto"
+              type="button"
+              data-toggle="collapse"
+              data-target="#header-nav"
+            >
+              <span></span><span></span><span></span>
+            </button>
+          </div>
+        </nav>
+        <!-- Navbar End -->
+      </header>
+      <!-- Header End -->
+      <!-- Content
+  ============================ -->
+      <div id="content" role="main">
+        <!-- Sidebar Navigation
+	============================ -->
+        <div class="idocs-navigation bg-light">
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" href="#bookshelf_getstart"
+                >Getting Started</a
+              >
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#bookshelf_installation"
+                    >Installation</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#bookshelf_start">Start</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bookshelf_folder_structure"
+                >Folder Structure</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bookshelf_firebase"
+                >Firebase Configuration</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bookshelf_more_customization"
+                >Template Customization</a
+              >
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#bookshelf_sass">Sass</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#bookshelf_typography">Typography</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#bookshelf_color">Color Setting</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bookshelf_source_credits"
+                >Source & Credits</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#bookshelf_support">Support</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#bookshelf_templates">More Templates</a>
+            </li> -->
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#bookshelf_changelog">Changelog</a>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link" href="#v1-1">v1.1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#v1-0">v1.0</a>
+                </li>
+              </ul>
+            </li> -->
+          </ul>
+        </div>
+        <!-- Docs Content
+	============================ -->
+        <div class="idocs-content">
+          <div class="container">
+            <!-- Getting Started
+		============================ -->
+            <section id="bookshelf_getstart">
+              <h1>Bookshelf - WhatsApp book ordering system</h1>
+              <p class="lead">
+                Thank you for purchasing Bookshelf - WhatsApp book ordering
+                system.
+              </p>
+              <hr />
+              <div class="row">
+                <div class="col-sm-6 col-lg-4">
+                  <ul class="list-unstyled">
+                    <li><strong>Version:</strong> 1.0</li>
+                    <li>
+                      <strong>Author:</strong>
+                      <a
+                        href="https://themeforest.net/user/themeatelier"
+                        target="_blank"
+                        >ThemeAtelier</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                  <ul class="list-unstyled">
+                    <li>
+                      <strong class="font-weight-700">Created:</strong> 01
+                      December, 2022
+                    </li>
+                    <li><strong>Update:</strong> 09 June, 2023</li>
+                  </ul>
+                </div>
+              </div>
+              <p class="alert alert-info">
+                If you have any questions that are beyond the scope of this help
+                file, Please feel free to email via
+                <a
+                  target="_blank"
+                  href="https://themeforest.net/user/themeatelier/#contact"
+                  >Profile contact form</a
+                >
+                or item's support page.
+              </p>
+              <div class="alert alert-success">
+                We are available for freelance work for any <code>HTML</code>,
+                <code>React</code>, <code>NextJS</code>,
+                <code>WordPress projects</code>. <br />Write us at
+                <a href="www.themeatelierbd@gmail.com"
+                  >themeatelierbd@gmail.com</a
+                >
+                and will reply to you within 24 hours.
+              </div>
+            </section>
+            <hr class="divider" />
+            <!-- ========== installation ========== -->
+            <section id="bookshelf_installation">
+              <h2>Installation</h2>
+              <p class="lead">
+                Follow the steps below to setup your site template:
+              </p>
+              <ul>
+                <li>
+                  Unzip the downloaded package and open the
+                  <strong>/bookshelf-main</strong> folder to find all the files.
+                </li>
+                <li class="font-weight-bold fs-">
+                  <h5 class="mb-0">Install NPM packages:</h5>
+                  <ul>
+                    <li class="font-weight-500">
+                      Run <code>npm install</code> in terminal to install all
+                      the uses packages.
+                    </li>
+                    <li class="font-weight-bold">
+                      <h5 class="mb-0">
+                        In case you don't have Node.js & NPM package manager on
+                        your machine, here how to add it:
+                      </h5>
+                      <ul>
+                        <li class="font-weight-500">
+                          Download Node.js from browser. This will automatically
+                          add npm with it.
+                        </li>
+                        <li class="font-weight-500">
+                          Open Command Prompt and check node and npm versions to
+                          make sure they have been added.
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <h5>
+                After installing packages its time to setup your
+                <code>.env</code> file with firebase. Lets see how to do that.
+              </h5>
+
+              <ul>
+                <li class="font-weight-bold">
+                  <h5 class="mb-0">Firebase setup:</h5>
+                  <ul>
+                    <li class="font-weight-500">
+                      Go to firebase(<a
+                        href="https://firebase.google.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Here is the link</a
+                      >). And Create a project and find your project api key and
+                      necessary ids.
+                    </li>
+                    <li class="font-weight-500">
+                      Now go to your project file and create a env file like
+                      this 👉 <code>.env</code> and set the env file like
+                      <code>.env.sample.txt</code> file. We created that as an
+                      example for you.
+                    </li>
+                    <li class="font-weight-500">
+                      Set the firebase keys and ids to your newly created
+                      <code>.env</code> file.
+                      <img
+                        class="img-fluid"
+                        src="assets/images/envsample.png"
+                        alt="color-img"
+                      />
+                      <p>
+                        **Replace it with your keys and ids. And you are ready
+                        to run the project**
+                      </p>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="font-weight-bold">
+                  <h5 class="mb-0">Development server:</h5>
+                  <ul>
+                    <li class="font-weight-500">
+                      Now run <code>npm start</code> to run the project locally.
+                      It will navigate you to
+                      <code>http://localhost:3000/</code>.
+                    </li>
+                    <li class="font-weight-500">
+                      The app will automatically reload if you change any of the
+                      source files.
+                    </li>
+                  </ul>
+                </li>
+                <!-- <li class="font-weight-bold">
+          <h5 class="mb-0">Build</h5>
+          <ul>
+            <li class="font-weight-500">
+              Run <code>npm run build</code> to build the project. The
+              build artifacts will be stored in the build/ directory.
+            </li>
+          </ul>
+        </li> -->
+              </ul>
+            </section>
+            <hr class="divider" />
+
+            <!-- ========== Start file ========== -->
+            <section id="bookshelf_start">
+              <h2>Get Start</h2>
+              <p>
+                After installing packages and running
+                <code>npm start</code> you're set to see the website on browser.
+              </p>
+              <p>
+                Now to customize the page and add your content to it you need to
+                do some easy steps.
+              </p>
+              <!-- <hr class="divider" />
+      <div>
+        <h2>Deployment</h2>
+        <p>
+          After changing content as your preference you need to deploy
+          the site.
+        </p>
+        <p>
+          For deployment you can follow this official deployment
+          documentation of react.
+          <a
+            target="_blank"
+            href="https://create-react-app.dev/docs/deployment/"
+            >Deployment Documentation</a
+          >
+        </p>
+      </div> -->
+            </section>
+            <hr class="divider" />
+            <!-- ========== Customization ========== -->
+            <section id="bookshelf_folder_structure">
+              <h2>Folder Structure</h2>
+              <pre> <code class="html">
+  |——bookshelf
+  |  |
+  |  |——public/
+  |  |  |——assets/                    
+  |  |  |    |——images/              --(All static images are here);
+  |  |  |——favicon.ico
+  |  |  |——index.html                 
+  |  |  |
+  |  |——src/
+  |  |  |——assets/           
+  |  |  |    |sass/                   --abstracts, base, components, main.scss;
+  |  |  |
+  |  |  |——components/                --Component Files & Folder;                    
+  |  |  |    |context/                 --context.js, filter_context.js;   
+  |  |  |    |global/                 --header.js, footer.js;                   
+  |  |  |    |helper/                 --useOnClickOutside.js;   
+  |  |  |    |pages/                  --(all pages components);                  
+  |  |  |    |reducer/                 --filterReducer.js;   
+  |  |  |    |js files/               --(js files for all components. These are called in pages components)
+  |  |  |——data/                      --Json Data;
+  |  |  |    |json files/             --food-list.json, restaurant.json, single-restaurant.json
+  |  |  |——App.js
+  |  |  |——firebase.js                  --Firebase functionality;
+  |  |  |——index.js
+  |  |  |
+  |  |——package.json                  -- npm config: dependencies list;
+  |  |——package-lock.json               
+          </code> </pre>
+            </section>
+            <hr class="divider" />
+
+            <section id="bookshelf_firebase">
+              <h2>Firebase Configuration</h2>
+              <p>
+                We used firebase as backend and authentication. So to upload
+                data to server and get data from server you need to setup
+                firebase. The basic firebase setup you already did and run the
+                project. Now to add data or manage data you must be the admin of
+                the site. We have the authentication verification options. For
+                that you first have to enable email & password authentication
+                from firebase. Lets see how to do that.
+              </p>
+              <ul>
+                <li>Go to firebase and open the project you have created.</li>
+                <li>
+                  Find Authentication options and enable email/password sign in
+                  method
+                </li>
+                <li>
+                  Now Click on Add User and write down you email and set a
+                  password
+                  <img
+                    class="img-fluid"
+                    src="assets/images/emailpass.png"
+                    alt=""
+                  />
+                </li>
+                <li>
+                  Now thats the admin email and with that email you can login
+                  into site as admin and can make changes you want
+                </li>
+                <li>
+                  Log in route isn't linked in anywhere of the site. So to go
+                  that page you have to type the path on the browser.
+                </li>
+                <li>
+                  <strong
+                    >The path of the login page is <code>bookshelf-login</code>.
+                    You can change the path name as you want from
+                    <code>app.js</code> page.</strong
+                  >
+                  Write this path name in browser.
+                  <img
+                    class="img-fluid"
+                    src="assets/images/loginpage.png"
+                    alt=""
+                  />
+                  <p>
+                    You'll see this UI there. Put email and pass on field and
+                    press login button. If the pass and email match this will
+                    login you on the site and will be redirected to home.
+                  </p>
+                </li>
+                <li>
+                  After the login you'll see some more route which a normal user
+                  won't see. Such as <code>add-book, manage-book</code>
+                </li>
+                <h2 class="mt-3 mb-1">Add & manage data</h2>
+                <li>
+                  For adding book data you have to go to
+                  <code>add-book</code> page. There you gonna see input field.
+                  Fill them with valid details and add data to firebase.
+                  <img
+                  class="img-fluid"
+                  src="assets/images/addbook.png"
+                  alt=""
+                />
+                </li>
+                <li>But, before that you have to do little job in firebase.</li>
+                <li>
+                  Go through the firebase again and find Firebase database
+                  there. create database from there.
+                  <img
+                    class="img-fluid"
+                    src="assets/images/firestore.png"
+                    alt=""
+                  />
+                </li>
+                <li>
+                  Find storage and setup it to upload images. And now you're all
+                  set with firebase
+                </li>
+                <strong
+                  >As you are all set with firebase you now can add data also
+                  can manage data from <code>manage-book</code> page.</strong
+                >
+                <li>In manage book page you can update every single data including image and can delete
+                  them also if you want.
+                  <img
+                    class="img-fluid"
+                    src="assets/images/managebook.png"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </section>
+            <hr class="divider" />
+
+            <section id="bookshelf_more_customization">
+              <h2>Template Customization</h2>
+            </section>
+            <!-- sass customization -->
+            <div id="bookshelf_sass">
+              <h3>
+                <strong
+                  >And to change styles you need to go to
+                  <code>sass</code> folder inside
+                  <code>src/assets</code></strong
+                >
+              </h3>
+              <h6>
+                <strong>Process of customize style with SCSS 👇</strong>
+              </h6>
+              <p>
+                We have added SASS <code>.scss</code> files in template. Which
+                has been compiling to css. If you know how to use SASS you can
+                change sass files and compile the css as well.
+              </p>
+              <p>
+                Open the
+                <code
+                  >assets/sass/base/_base.scss,
+                  assets/sass/base/_typography.scss</code
+                >
+                and Edit the values according to your needs. If you need more
+                Advanced Setup then you can Edit the Respective Files yourself
+                which have been branched inside the same Folder. It is
+                completely at your discretion only to include the Required
+                <code>.scss</code> Files you need to minimize the amount of CSS
+                & including only the Styles of the Blocks you need. This can be
+                setup in your <code>main.scss</code> File.
+              </p>
+              <p>
+                <strong>
+                  All colors of template operating from
+                  <code>_variable.scss</code> file. Open
+                  <code>sass/abstracts/_variable.scss</code> to change colors as
+                  you want.
+                </strong>
+              </p>
+              <p>
+                <strong>
+                  To customize responsive layout you have to open
+                  <code>sass/abstracts/mixins.scss</code>. There you can change
+                  media queries value as you want.
+                </strong>
+              </p>
+              <p>
+                <strong>
+                  And All components based scss are in <code>sass/components</code>. Find the page you want to change css there.
+                </strong>
+              </p>
+            </div>
+            <hr class="divider" />
+            <section id="bookshelf_typography">
+              <h2>Typography</h2>
+              <h4>Font Family</h4>
+              <p>
+                We used two different font-family. One for Heading and title and
+                another one for rest. You can simply use another font-family
+                from Google Font by importing it inside
+                <code>assets/sass/base/_typography.scss</code>.
+              </p>
+              <pre><code class="html">
+
+  &lt;!-- ========== Fonts ========== --&gt;
+  &lt;!--====== Heading font ======--&gt;
+  &#64;import url(&quot;https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap&quot;)
+  &lt;!--====== Body font ======--&gt;
+  &#64;import url(&quot;https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap&quot;)
+  &lt;!-- ========== Add your fonts here or you can replace these two ========== --&gt;
+
+  &lt;!--====== Font Family ======--&gt;
+  &#36;font-heading: &quot;philosopher&quot;, sans-serif;
+  &#36;font-display: &quot;poppins&quot;, sans-serif;
+
+
+</code></pre>
+              <p>
+                After importing fonts inside <code>_typography.scss</code> of
+                index file you just need to add your font family variable in
+                same file. Set your chosen family to
+                <code>$font-heading</code> or <code>$font-display</code> as
+                their value just like the example given up
+              </p>
+            </section>
+            <hr class="divider" />
+            <!-- ========== Color setting ========== -->
+            <section id="bookshelf_color">
+              <h2>Color Settings</h2>
+              <h5>
+                we have used two different way of changing color. Both way are
+                so easy to understand for you.
+              </h5>
+              <p>
+                One is in <code>_variable.scss</code> file in
+                <code>assets/sass/abstracts/_variable.scss</code> You can change
+                color code here as you want. That will work fine.
+                <img
+                  class="img-fluid"
+                  src="assets/images/colorsetting.png"
+                  alt="color-img"
+                />
+              </p>
+            </section>
+            <hr class="divider" />
+
+            <!-- ========== Sources & Credits ========== -->
+            <section id="bookshelf_source_credits">
+              <h2>Source & Credits</h2>
+              <h4>Icons:</h4>
+              <ul>
+                <li>
+                  React Icons -
+                  <a target="_blank" href="https://react-icons.github.io/react-icons/"
+                    >https://react-icons.github.io</a
+                  >
+                </li>
+              </ul>
+              <h4>Fonts:</h4>
+              <ul>
+                <li>
+                  Google Font -
+                  <a target="_blank" href="https://fonts.google.com/"
+                    >https://fonts.google.com/</a
+                  >
+                </li>
+              </ul>
+              <h4>Scripts:</h4>
+              <ul>
+                <li>
+                  React Bootstrap
+                  <a target="_blank" href="https://react-bootstrap.github.io/"
+                    >https://react-bootstrap.com/</a
+                  >
+                </li>
+                <li>
+                  Firebase
+                  <a
+                    target="_blank"
+                    href="https://firebase.google.com/"
+                    >https://firebase.google.com/</a
+                  >
+                </li>
+                <li>
+                  React hook form
+                  <a
+                    target="_blank"
+                    href="https://react-hook-form.com/"
+                    >https://react-hook-form.com/</a
+                  >
+                </li>
+                <li>
+                  Swiper js -
+                  <a target="_blank" href="https://swiperjs.com/react"
+                    >https://swiperjs.com/react</a
+                  >
+                </li>
+                <li>
+                  MailChimp
+                  <a
+                    target="_blank"
+                    href="https://www.npmjs.com/package/react-mailchimp-subscribe"
+                    >https://www.npmjs.com/package/react-mailchimp-subscribe</a
+                  >
+                </li>
+                <li>
+                  React Modern Drawer
+                  <a
+                    target="_blank"
+                    href="https://www.npmjs.com/package/react-modern-drawer"
+                    >https://www.npmjs.com/react-modern-drawer</a
+                  >
+                </li>
+                <li>
+                  Sweet alert
+                  <a
+                    target="_blank"
+                    href="https://sweetalert2.github.io/"
+                    >https://sweetalert2.github.io/</a
+                  >
+                </li>
+              </ul>
+            </section>
+            <hr class="divider" />
+            <!-- ========== Supports ========== -->
+            <section id="bookshelf_support">
+              <h2>Support</h2>
+              <div class="alert alert-warning mb-4">
+                <span class="badge badge-danger text-uppercase">Note:</span>
+                While we aim to provide the best support possible, please keep
+                in mind that it only extends to verified buyers and only to
+                issues related to our template like bugs and errors. Custom
+                modifications or third party module implementations are not
+                included.
+              </div>
+              <span class="alert alert-success">
+                Submit a support ticket throuch item's support tab at
+                TemplateMonster. We well back to you within 24 hours.
+              </span>
+            </section>
+            <hr class="divider" />
+          </div>
+        </div>
+      </div>
+      <!-- Content end -->
+    </div>
+    <!-- Document Wrapper end -->
+    <!-- Back To Top -->
+    <a
+      id="back-to-top"
+      data-toggle="tooltip"
+      title="Back to Top"
+      href="javascript:void(0)"
+      ><i class="fa fa-chevron-up"></i
+    ></a>
+    <!-- ========== Javascript ========== -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Highlight JS -->
+    <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+    <!-- Easing -->
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Custom Script -->
+    <script src="assets/js/theme.js"></script>
+  </body>
+</html>
